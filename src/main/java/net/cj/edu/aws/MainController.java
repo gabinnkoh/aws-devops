@@ -14,7 +14,7 @@ public class MainController {
 
 	@GetMapping("/") //@requestMapping(value="/", method=requestmethod.GET)이랑 똑같음
 	public String home() {
-		return "<h1>aws-devops</h1>"; //string을 넘기는 것이다
+		return "<h1>aws-devops finished</h1>"; //string을 넘기는 것이다
 	}
 	
 	@GetMapping("/date")
